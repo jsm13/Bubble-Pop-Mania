@@ -19,10 +19,11 @@ This schedule will be used to keep track of your progress throughout the week an
 
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
+This game is a point and click game called Bubble Pop Mania.  The idea is to click the bubbles to clear the screen.  The bubbles change in each level, ending as meteors attaching the Earth in the 3rd round.
+
 ## Wireframes
 
-Include images of your wireframes. 
-
+Include images of your wireframes. (DONE)
 ## Priority Matrix
 
 Include a full list of features that have been prioritized based on the `Time and Importance` Matix.  
@@ -30,37 +31,47 @@ Include a full list of features that have been prioritized based on the `Time an
 ## Game Components
 
 ### Landing Page
-What will a player see when they start your game?
+1. Welcome greeting, with background of bubbles.
+2. Instructions: "Enter 3 initials, then press START to play."
+3. Start button
+
 
 ### Game Initialization
 What will a player see when the game is started? 
+1. Level I screen: Floating(or drifting bubbles) all same color.(possible animated bottom half of screen - pulsating or glowing.)
+2. Timer, Score box, Level counter and Player's Initials at top of page
 
 ### Playing The Game
-What will be the flow of the game, what will the user be expeted to do and what will the user expect from the gam
+What will be the flow of the game, what will the user be expeted to do and what will the user expect from the game.
+1. Level I: The user will be expected to clear the board before the timer expires. If successfully, the user can advance to Level 2. If I don't have time to make Level 2, the user will see a final score and congratulatory statement such as You Won!
+2. Level II. The user will be expected to only pop the noncolored bubbles.  Colored bubbles are toxic and clicking one will cause the screen to get inked (turning into that color) and the user to lose a life value.  The user is given 3 life values.
+3. Level III. The user will be expected to click and destroy all falling meteors to save the earth.  Gif meteors will fall at different speeds.  If one hits earth, game over!
 
 ### Winning The Game
 What does it look like when the game ends, what determines winning or losing?
-
+Winners see a congratulations statement, losers see something like Sorry, you lost, thanks for Playing.  Both will include final scores and a reset button.
 ### Game Reset
 How will the user restart the game once it has been completed.
-
+By pressing the reset button on the end of game page.
 ## MVP 
 
 Include the full list of features that will be part of your MVP 
-
+Barebones would include: Landing page, Level 1, End of Game Page.
 ## POST MVP
+POST MVP - Levels 2 and 3.
 
 Include the full list of features that you are considering for POST MVP
 ## Functional Components
-
+animated gifs, determination if a gif hits Earth.  Replacement pic when gif is clicked (destroyed).
+Detection for when all meteors are removed.
 Based on the initial logic defined in the previous game phases section try and breakdown the logic further into functional components, and by that we mean functions.  Does your logic indicate that code could be encapsulated for the purpose of reusablility.  Once a function has been defined it can then be incorporated into a class as a method. 
 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. 
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Component 1 | H | 10hrs| 12hrs | 12hrs |
-| Total |  | 10hrs| 12hrs | 12hrs |
+| Component 1 | H | 72hrs| 72hrs | 12hrs |
+| Total | H | 72hrs| 0hrs | 0hrs |
 
 ## Helper Functions
 Helper functions should be generic enought that they can be reused in other applications. Use this section to document all helper functions that fall into this category.
