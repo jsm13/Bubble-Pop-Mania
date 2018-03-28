@@ -72,21 +72,21 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Component 1 | H | 40 hrs| 40hrs | 0 hrs |
+| Form |    H |  10hrs |   8hrs  |  8hrs |
+| Landing Page and First Game Level | H |  | 2hrs |
+| Animated bubbles for First Level | H | 5 hrs |
+| Bubble Counting/Score tracker and Timer | H | 5 hrs |
+| Animation of bottom of screen | L | 3 hours |
+| JQuery Point and Click functionality |  H  | 10 hrs |  
+| Creation of Divs and classes  |  H  | 1 hrs|
+| Bubble State Toggle to Popped  | H  | 5 hrs|
+| Addition of Audio sound for Popped Bubble State | H | 2 hrs   |
+| Creation of Transition Pages |  L | 5hrs |
+| Creation of Transition Animation | L | 3 hrs|
+| Creation of Level 2 | L | 3 hrs|
+| Creation of Level 3 | L | 3 hrs|
 | Total | H | 40hrs| 0hrs | 0hrs |
 
-Form    H   10hrs   8hrs    8hrs
-Landing Page and First Game Level | H | Page shell design | 2hrs
-Animated bubbles for First Level H | 5 hrs
-Bubble Counting/Score tracker and Timer | H | 5 hrs
-Animation of bottom of screen | L | 3 hours
-JQuery Point and Click functionality |  H  | 10 hrs   
-Creation of Divs and classes  |  H  | 1 hrs
-Bubble State Toggle to Popped  | H  | 5 hrs
-Addition of Audio sound for Popped Bubble State H | 2 hrs   
-Creation of Transition Pages |  L | 5hrs 
-Creation of Transition Animation | L | 3 hrs
-Creation of Level 2 | L | 3 hrs
-Creation of Level 3 | L | 3 hrs
 
 ## Helper Functions
 Helper functions should be generic enought that they can be reused in other applications. Use this section to document all helper functions that fall into this category.
